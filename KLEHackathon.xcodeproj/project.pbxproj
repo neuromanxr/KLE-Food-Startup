@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50D891D719E9907500E77C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D891D619E9907500E77C3A /* Foundation.framework */; };
+		50D891D919E9907500E77C3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D891D819E9907500E77C3A /* CoreGraphics.framework */; };
+		50D891DB19E9907500E77C3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D891DA19E9907500E77C3A /* UIKit.framework */; };
+		50D891E119E9907500E77C3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D891DF19E9907500E77C3A /* InfoPlist.strings */; };
+		50D891E319E9907500E77C3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D891E219E9907500E77C3A /* main.m */; };
+		50D891E719E9907500E77C3A /* KLEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D891E619E9907500E77C3A /* KLEAppDelegate.m */; };
+		50D891E919E9907500E77C3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D891E819E9907500E77C3A /* Images.xcassets */; };
+		50D891F019E9907500E77C3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D891EF19E9907500E77C3A /* XCTest.framework */; };
+		50D891F119E9907500E77C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D891D619E9907500E77C3A /* Foundation.framework */; };
+		50D891F219E9907500E77C3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D891DA19E9907500E77C3A /* UIKit.framework */; };
+		50D891FA19E9907500E77C3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D891F819E9907500E77C3A /* InfoPlist.strings */; };
+		50D891FC19E9907500E77C3A /* KLEHackathonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D891FB19E9907500E77C3A /* KLEHackathonTests.m */; };
+		50D8920719E990B200E77C3A /* KLEHomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D8920619E990B200E77C3A /* KLEHomeScreenViewController.m */; };
+		50D8920919E9914600E77C3A /* KLEHomeScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D8920819E9914600E77C3A /* KLEHomeScreenView.xib */; };
+		50D8932419E99BD100E77C3A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8932319E99BD100E77C3A /* FacebookSDK.framework */; };
+		50D8932A19E9B3D700E77C3A /* KLEProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D8932919E9B3D700E77C3A /* KLEProfileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D891F319E9907500E77C3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D891CB19E9907500E77C3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D891D219E9907500E77C3A;
+			remoteInfo = KLEHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50D891D319E9907500E77C3A /* KLEHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLEHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D891D619E9907500E77C3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50D891D819E9907500E77C3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50D891DA19E9907500E77C3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50D891DE19E9907500E77C3A /* KLEHackathon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLEHackathon-Info.plist"; sourceTree = "<group>"; };
+		50D891E019E9907500E77C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50D891E219E9907500E77C3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50D891E419E9907500E77C3A /* KLEHackathon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLEHackathon-Prefix.pch"; sourceTree = "<group>"; };
+		50D891E519E9907500E77C3A /* KLEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLEAppDelegate.h; sourceTree = "<group>"; };
+		50D891E619E9907500E77C3A /* KLEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLEAppDelegate.m; sourceTree = "<group>"; };
+		50D891E819E9907500E77C3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50D891EE19E9907500E77C3A /* KLEHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLEHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D891EF19E9907500E77C3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50D891F719E9907500E77C3A /* KLEHackathonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLEHackathonTests-Info.plist"; sourceTree = "<group>"; };
+		50D891F919E9907500E77C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50D891FB19E9907500E77C3A /* KLEHackathonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLEHackathonTests.m; sourceTree = "<group>"; };
+		50D8920519E990B200E77C3A /* KLEHomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLEHomeScreenViewController.h; sourceTree = "<group>"; };
+		50D8920619E990B200E77C3A /* KLEHomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLEHomeScreenViewController.m; sourceTree = "<group>"; };
+		50D8920819E9914600E77C3A /* KLEHomeScreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLEHomeScreenView.xib; sourceTree = "<group>"; };
+		50D8932319E99BD100E77C3A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		50D8932819E9B3D700E77C3A /* KLEProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLEProfileViewController.h; sourceTree = "<group>"; };
+		50D8932919E9B3D700E77C3A /* KLEProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLEProfileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D891D019E9907500E77C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D891D919E9907500E77C3A /* CoreGraphics.framework in Frameworks */,
+				50D8932419E99BD100E77C3A /* FacebookSDK.framework in Frameworks */,
+				50D891DB19E9907500E77C3A /* UIKit.framework in Frameworks */,
+				50D891D719E9907500E77C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D891EB19E9907500E77C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D891F019E9907500E77C3A /* XCTest.framework in Frameworks */,
+				50D891F219E9907500E77C3A /* UIKit.framework in Frameworks */,
+				50D891F119E9907500E77C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D891CA19E9907500E77C3A = {
+			isa = PBXGroup;
+			children = (
+				50D891DC19E9907500E77C3A /* KLEHackathon */,
+				50D891F519E9907500E77C3A /* KLEHackathonTests */,
+				50D891D519E9907500E77C3A /* Frameworks */,
+				50D891D419E9907500E77C3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50D891D419E9907500E77C3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D891D319E9907500E77C3A /* KLEHackathon.app */,
+				50D891EE19E9907500E77C3A /* KLEHackathonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D891D519E9907500E77C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50D8932319E99BD100E77C3A /* FacebookSDK.framework */,
+				50D891D619E9907500E77C3A /* Foundation.framework */,
+				50D891D819E9907500E77C3A /* CoreGraphics.framework */,
+				50D891DA19E9907500E77C3A /* UIKit.framework */,
+				50D891EF19E9907500E77C3A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50D891DC19E9907500E77C3A /* KLEHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				50D891E519E9907500E77C3A /* KLEAppDelegate.h */,
+				50D891E619E9907500E77C3A /* KLEAppDelegate.m */,
+				50D8932819E9B3D700E77C3A /* KLEProfileViewController.h */,
+				50D8932919E9B3D700E77C3A /* KLEProfileViewController.m */,
+				50D8920519E990B200E77C3A /* KLEHomeScreenViewController.h */,
+				50D8920619E990B200E77C3A /* KLEHomeScreenViewController.m */,
+				50D8920819E9914600E77C3A /* KLEHomeScreenView.xib */,
+				50D891E819E9907500E77C3A /* Images.xcassets */,
+				50D891DD19E9907500E77C3A /* Supporting Files */,
+			);
+			path = KLEHackathon;
+			sourceTree = "<group>";
+		};
+		50D891DD19E9907500E77C3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D891DE19E9907500E77C3A /* KLEHackathon-Info.plist */,
+				50D891DF19E9907500E77C3A /* InfoPlist.strings */,
+				50D891E219E9907500E77C3A /* main.m */,
+				50D891E419E9907500E77C3A /* KLEHackathon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50D891F519E9907500E77C3A /* KLEHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D891FB19E9907500E77C3A /* KLEHackathonTests.m */,
+				50D891F619E9907500E77C3A /* Supporting Files */,
+			);
+			path = KLEHackathonTests;
+			sourceTree = "<group>";
+		};
+		50D891F619E9907500E77C3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D891F719E9907500E77C3A /* KLEHackathonTests-Info.plist */,
+				50D891F819E9907500E77C3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D891D219E9907500E77C3A /* KLEHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D891FF19E9907500E77C3A /* Build configuration list for PBXNativeTarget "KLEHackathon" */;
+			buildPhases = (
+				50D891CF19E9907500E77C3A /* Sources */,
+				50D891D019E9907500E77C3A /* Frameworks */,
+				50D891D119E9907500E77C3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLEHackathon;
+			productName = KLEHackathon;
+			productReference = 50D891D319E9907500E77C3A /* KLEHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50D891ED19E9907500E77C3A /* KLEHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D8920219E9907500E77C3A /* Build configuration list for PBXNativeTarget "KLEHackathonTests" */;
+			buildPhases = (
+				50D891EA19E9907500E77C3A /* Sources */,
+				50D891EB19E9907500E77C3A /* Frameworks */,
+				50D891EC19E9907500E77C3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D891F419E9907500E77C3A /* PBXTargetDependency */,
+			);
+			name = KLEHackathonTests;
+			productName = KLEHackathonTests;
+			productReference = 50D891EE19E9907500E77C3A /* KLEHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D891CB19E9907500E77C3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KLE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kelvin;
+				TargetAttributes = {
+					50D891ED19E9907500E77C3A = {
+						TestTargetID = 50D891D219E9907500E77C3A;
+					};
+				};
+			};
+			buildConfigurationList = 50D891CE19E9907500E77C3A /* Build configuration list for PBXProject "KLEHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				he,
+			);
+			mainGroup = 50D891CA19E9907500E77C3A;
+			productRefGroup = 50D891D419E9907500E77C3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D891D219E9907500E77C3A /* KLEHackathon */,
+				50D891ED19E9907500E77C3A /* KLEHackathonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D891D119E9907500E77C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D8920919E9914600E77C3A /* KLEHomeScreenView.xib in Resources */,
+				50D891E119E9907500E77C3A /* InfoPlist.strings in Resources */,
+				50D891E919E9907500E77C3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D891EC19E9907500E77C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D891FA19E9907500E77C3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D891CF19E9907500E77C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D8920719E990B200E77C3A /* KLEHomeScreenViewController.m in Sources */,
+				50D8932A19E9B3D700E77C3A /* KLEProfileViewController.m in Sources */,
+				50D891E319E9907500E77C3A /* main.m in Sources */,
+				50D891E719E9907500E77C3A /* KLEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D891EA19E9907500E77C3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D891FC19E9907500E77C3A /* KLEHackathonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50D891F419E9907500E77C3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D891D219E9907500E77C3A /* KLEHackathon */;
+			targetProxy = 50D891F319E9907500E77C3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50D891DF19E9907500E77C3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D891E019E9907500E77C3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50D891F819E9907500E77C3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D891F919E9907500E77C3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D891FD19E9907500E77C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50D891FE19E9907500E77C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D8920019E9907500E77C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kelvinlee/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLEHackathon/KLEHackathon-Prefix.pch";
+				INFOPLIST_FILE = "KLEHackathon/KLEHackathon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50D8920119E9907500E77C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kelvinlee/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLEHackathon/KLEHackathon-Prefix.pch";
+				INFOPLIST_FILE = "KLEHackathon/KLEHackathon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50D8920319E9907500E77C3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KLEHackathon.app/KLEHackathon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLEHackathon/KLEHackathon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KLEHackathonTests/KLEHackathonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50D8920419E9907500E77C3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KLEHackathon.app/KLEHackathon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLEHackathon/KLEHackathon-Prefix.pch";
+				INFOPLIST_FILE = "KLEHackathonTests/KLEHackathonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D891CE19E9907500E77C3A /* Build configuration list for PBXProject "KLEHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D891FD19E9907500E77C3A /* Debug */,
+				50D891FE19E9907500E77C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D891FF19E9907500E77C3A /* Build configuration list for PBXNativeTarget "KLEHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D8920019E9907500E77C3A /* Debug */,
+				50D8920119E9907500E77C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50D8920219E9907500E77C3A /* Build configuration list for PBXNativeTarget "KLEHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D8920319E9907500E77C3A /* Debug */,
+				50D8920419E9907500E77C3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D891CB19E9907500E77C3A /* Project object */;
+}
